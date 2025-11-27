@@ -1,2 +1,34 @@
-<img width="5000" height="3000" alt="image" src="https://github.com/user-attachments/assets/57184d71-10eb-4fae-8d63-2b4a1f3a2897" />
+FLO RFM PREDICTION
+RFM ile Müşteri Segmentasyonu (Customer Segmentation with RFM)
+https://user-images.githubusercontent.com/101832704/175509221-9dd1493f-4b77-4f87-ba9c-7493498be41b.png
 
+İŞ PROBLEMİ (BUSINESS PROBLEM)
+Online ayakkabı mağazası olan FLO müşterilerini segmentlere ayırıp bu segmentlere göre pazarlama stratejileri belirlemek istiyor. Buna yönelik olarak müşterilerin davranışları tanımlanacak ve bu davranışlardaki öbeklenmelere göre gruplar oluşturulacak
+
+VERİ SETİ HİKAYESİ (DATA SET STORY)
+Veri seti Flo’dan son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
+
+DEĞİŞKENLER (VARIABLES)
+master_id: Eşsiz müşteri numarası
+
+order_channel : Alışveriş yapılan platforma ait hangi kanalın kullanıldığı (Android, ios, Desktop, Mobile, Offline)
+
+last_order_channel : En son alışverişin yapıldığı kanal
+
+first_order_date : Müşterinin yaptığı ilk alışveriş tarihi
+
+last_order_date : Müşterinin yaptığı son alışveriş tarihi
+
+last_order_date_online : Muşterinin online platformda yaptığı son alışveriş tarihi
+
+last_order_date_offline : Muşterinin offline platformda yaptığı son alışveriş tarihi
+
+order_num_total_ever_online : Müşterinin online platformda yaptığı toplam alışveriş sayısı
+
+order_num_total_ever_offline : Müşterinin offline'da yaptığı toplam alışveriş sayısı
+
+customer_value_total_ever_offline : Müşterinin offline alışverişlerinde ödediği toplam ücret
+
+customer_value_total_ever_online : Müşterinin online alışverişlerinde ödediği toplam ücret
+
+interested_in_categories_12 : Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
