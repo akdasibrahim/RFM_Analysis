@@ -1,6 +1,5 @@
 FLO RFM PREDICTION
 RFM ile Müşteri Segmentasyonu (Customer Segmentation with RFM)
-https://user-images.githubusercontent.com/101832704/175509221-9dd1493f-4b77-4f87-ba9c-7493498be41b.png
 
 İŞ PROBLEMİ (BUSINESS PROBLEM)
 Online ayakkabı mağazası olan FLO müşterilerini segmentlere ayırıp bu segmentlere göre pazarlama stratejileri belirlemek istiyor. Buna yönelik olarak müşterilerin davranışları tanımlanacak ve bu davranışlardaki öbeklenmelere göre gruplar oluşturulacak
